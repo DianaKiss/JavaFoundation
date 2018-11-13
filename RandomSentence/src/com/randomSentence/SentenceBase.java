@@ -7,7 +7,7 @@ public class SentenceBase {
 
     public int getLength(String[] anyArray) {
 
-        int arrayRandom = (int) Math.random() * anyArray.length;
+        int arrayRandom = (int) (Math.random() * anyArray.length);
         return arrayRandom;
     }
 
